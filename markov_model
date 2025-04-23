@@ -1,0 +1,9 @@
+digraph {
+	A [label="Data Collection"]
+	B [label="Model Training"]
+	C [label="Evaluation & Testing"]
+	D [label="Deployment & Integration"]
+	A -> B
+	B -> C
+	C -> D
+}
